@@ -65,7 +65,7 @@ for q in range(len(team)-3):
                 n=0
                 for a in speakers:
                     s=human.count(a)
-                    if s >=3 or s == 0:
+                    if s >3 or s == 0:
                         n=1
                         break
                 if n==0:
